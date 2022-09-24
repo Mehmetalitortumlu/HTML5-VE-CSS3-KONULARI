@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu Sayfası</title>
+<style>
+    form{
+        text-align:center ;
+        margin-top: 80px;
+    }
+</style>
+</head>
+
+<body>
+<h1 style="text-align:center ; color: blue;">Merhaba bize biraz kendinden bahset.</h1>
+    <form action="">
+
+        <label for="isim">İsim</label>
+        <input type="text" name="isim" id="isim" placeholder="İsim:">
+<br><br>
+        <label for="soyisim">Soyisim</label>
+        <input type="text" name="soyisim" id="soyisim" placeholder="Soyadınızı Giriniz...">
+        <br><br>
+        <label for="spor">Sevdiğiniz Spor:</label>
+        <input type="checkbox" name="spor" id="spor" value="Futbol">Futbol
+        <input type="checkbox" name="spor" id="spor" value="Basketbol">Basketbol
+        <input type="checkbox" name="spor" id="spor" value="Voleybol">Voleybol
+        <br><br>
+        <label for="cinsiyet">Cinsiyet:</label>
+        <input type="radio" name="cinsiyet" id="erkek" value="erkek">Erkek
+        <input type="radio" name="cinsiyet" id="kadın" value="kadın">Kadın
+        <br><br>
+        <label for="sec"> Güvenlik Sorusu: Türkiye'nin başkenti neresidir?</label>
+        <br><br>
+        <select name="sec" id="sec">
+            <option value="">Lütfen bir cevap seciniz...</option>
+            <option value="">Ankara</option>
+            <option value="">İstanbul</option>
+            <option value="">İzmir</option>
+            
+
+        </select>
+        <br><br>
+        <input type="submit" value="Kayıt Ol">
+
+
+    </form>
+
+
+
+</body>
+
+</html>

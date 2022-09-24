@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sıralı Sırasız etiketler</title>
+    <!-- <style>
+        ul{
+            /* list-style: none; noktalari kaldirir*/
+            list-style: circle
+        }
+        ol{
+            list-style:upper-roman ;
+            /* 1-2-3  yerine roman rakamlari ile yazabiliriz. */
+        }
+    </style> -->
+    <style>
+        /* body{
+            font-size: 18px;
+        } body fs ayarladik. */
+    </style>
+</head>
+<body>
+
+
+    <h1>Listeler</h1>
+
+    <h2>Sırasız Listeler</h2>
+    <ul type="circle" >
+        Programlama Dilleri;
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ul>
+
+    <h2>Sıralı Listeler</h2>
+    <ol reversed type="1" >
+        Ön yüzde kullanilanlar;
+        <li>HTML</li>
+        <ol start="2" type="i">
+            <li>Html icinde liste</li>
+            <li>Eski html dosyalari</li>
+            <li>Yeni html dosyalari</li>
+        </ol>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ol>
+    <!-- start özelliği kacinci sayidan istersek baslamamiza olanak saglar reversed özelligi ise terten yazmamizi saglar 4-3-2-1gibi -->
+</body>
+</html>
