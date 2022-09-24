@@ -1,0 +1,15 @@
+/* .p1{
+    font-weight: bold;
+    
+}
+
+p{
+    font-weight: lighter;
+} */
+
+p{
+    font-weight: inherit;
+}
+div{
+    font-weight: bold;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Selectors - Gruplayarak Seçme</title>
+</head>
+<style>
+    /* *{
+        color: red;
+        background-color: blueviolet;
+    }  herşeyi etkiler*/ 
+
+    /* div .paragraf1{
+        background: yellowgreen;
+        color: red;
+    }    
+    div p{
+        color: cadetblue;
+    } */
+
+    /* p,h2,div{
+        color: green;
+    }  burası gruplayarak secim virgül ile olur */
+    /* h2{
+        color: red;
+    } */
+
+    /* div>p{
+        color: red;
+    } */
+
+    /* #divsizp ~ div{
+        divsizp den sonra gelen divleri etkiler.
+        color:red;
+    } */
+
+    #divsizp + div{
+         color: red;
+    }
+</style>
+
+<body>
+
+    <p id="divsizp">Divsiz paragraf</p>
+
+
+    <div>
+        <p >Sınıfı olmayan divli paragraf</p>
+    </div>
+    
+    <div class="container">
+        Burası Divin içi
+        <p class="paragraf1">
+            Paragraf1
+        </p>
+        <p class="paragraf2">
+            Paragraf2
+        </p>
+        <p class="paragraf3">
+            Paragraf3
+        </p>
+
+    </div>
+
+        
+    <div class="container">
+        <h2>
+            DİV2
+        </h2>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farklı seçme türleri</title>
+    
+    <style>
+        /* p::first-line{
+            color: red;
+            background-color: yellow;
+        }
+        p{
+            background-color:aqua ;
+        } */
+        /* p::after{
+            content: " naber";
+        } before,after öncesi sonrasi*/
+        /* a{
+            text-decoration: none;
+        }
+        a:link{
+            color: turquoise;
+        }
+        a:hover{
+            color: red;
+           
+            
+        }
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            color: black;
+        } */
+        /* img[title="bir kadın"]{
+            border: 5px solid black;
+        } */
+        /* p[title^="bu"]{
+            color: red;
+        } baştaki kelime */
+        /* p[title $="paragraf"]{
+            color: red;
+        } bu ise sonunda demek */
+        /* p[title~="bir"]{
+            color: red;
+        } bu ise title icinde bir olanlari seç demek. */
+        /* a[href="https://www.google.com"]:visited{
+            color: red;
+        }
+        a[target="_blank"]{
+            color: yellow;
+        } */
+        a[href="https://www.google.com"][target="_blank"]{color: red;}
+    </style>
+</head>
+<body>
+     <!-- <p>Mehmet <br> Ali</p> -->
+   <!-- <a href="https://www.google.com">Google'a git</a> -->
+
+   <!-- <img src="img/coder.jpg" width="50%" alt="" title="bir kadın">
+   <br><br>
+   <img src="img/laptop.jpg" width="50%" alt="">
+    <br><br>
+   <img src="img/perfect.jpg" width="50%" alt=""> -->
+    
+ <!-- <p title="bu bir paragraftır">Paragraf 1</p>
+ <p title="bu bir paragraf degildir">Paragraf 2</p>
+ <p title="bir paragraf">Paragraf 3</p> -->
+
+
+
+ <a href="https://www.google.com">Google'a Git</a>
+ <br><br>
+ <a target="_blank" href="https://www.google.com">Youtube 'a Git</a>
+</body>
+</html>
