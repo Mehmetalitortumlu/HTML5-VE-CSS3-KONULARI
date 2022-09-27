@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            display: grid;
+            grid-template: 100px 50px 1000px 200px / 3fr 1fr;
+            grid-template-areas:
+                "header header"
+                "menu menu"
+                "main sidebar"
+                "footer footer";
+        }
+        
+        .header {
+            grid-area: header;
+            background-color: aqua;
+        }
+
+        .menu {
+            grid-area: menu;
+            background-color: aquamarine;
+        
+        }
+
+        .main {
+            grid-area: main;
+            background-color: blue;
+
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: chocolate;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: darkcyan;
+        }
+        li{
+            display: inline;
+           margin-left: 5px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+          Header
+        </div>
+
+        <div class="menu">
+<ul>
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Hakkında</a></li>
+    <li><a href="#">İletişim</a></li>
+    <li><a href="#">Blog</a></li>
+
+</ul>
+        </div>
+
+        <div class="sidebar">
+
+        </div>
+
+        <div class="aside">
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+
+</html>

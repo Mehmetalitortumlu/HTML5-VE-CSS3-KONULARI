@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template: 200px 200px 200px 200px / repeat(3,1fr);
+            grid-template-areas:"A A C"
+            "D . F"
+            "G H J" 
+            "B B E";
+        }
+        .container>div{
+            text-align: center;
+            font-size: 24px;
+        }
+        .box-1{
+            background: aqua;
+           grid-area:A ;
+        }
+        .box-2{
+            background: bisque;
+           grid-area:B ;
+
+        }
+        .box-3{
+            background: blue;
+           grid-area:C ;
+
+        }
+        .box-4{
+            background: blueviolet;
+           grid-area:D ;
+
+        }
+        .box-5{
+            background: brown;
+            grid-area: E;
+        }
+        .box-6{
+            background: burlywood;     
+            grid-area: F;
+        }
+        .box-7{
+            background: cadetblue;
+            grid-area: G;
+
+        }
+        .box-8{
+            background: chocolate;
+            grid-area: H;
+
+
+        }
+        .box-9{
+            background: crimson;
+            grid-area: J;
+
+          
+           
+        }
+    </style>
+    <title>Display-Grid</title>
+</head>
+<body>
+
+    <div class="container">
+    <div class="box-1">1</div>
+    <div class="box-2">2</div>
+    <div class="box-3">3</div>
+    <div class="box-4">4</div>
+    <div class="box-5">5</div>
+    <div class="box-6">6</div>
+    <div class="box-7">7</div>
+    <div class="box-8">8</div>
+    <div class="box-9">9</div>
+</div>
+
+</body>
+</html>
